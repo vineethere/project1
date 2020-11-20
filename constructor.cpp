@@ -2,12 +2,13 @@
 using namespace std;
 class vineet{
 	public:
-      vineet();
+		int any;
+    vineet(int any);
  
 };
-     vineet :: vineet()
+     vineet :: vineet(int any)
     {
-    cout<<"vineet";
+    cout<<"hello world ";
 	}
 
 
@@ -15,6 +16,6 @@ class vineet{
 int main()
 {
 	
-	vineet obj1();
+	vineet obj1(100);
 	return 0;
 }
